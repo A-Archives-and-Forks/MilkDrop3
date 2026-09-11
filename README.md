@@ -116,6 +116,25 @@ https://www.buymeacoffee.com/MilkDrop2077/<br/>
 
 # History:
 
+★ <ins>11/09/2026 : Version 3.35</ins><br/>
+- MilkDrop3 is now a 64-bit application, providing ~18% performance boost for CPU operations (doesn't mean +18% fps!).<br/>
+- Native GIF image support! GIFs are now treated like JPG and PNG files, allowing you to use them as textures or sprites.<br/>
+- Show artist and track title (song information), finally here ;)<br/>
+If the artist and track title are longer than 20 characters, they will automatically split into two lines.<br/>
+This feature is on by default, to disable it: open MilkPanel → Options → and un-check "Show artist + title on new track".<br/>
+Edit: There is a bug right now, to disable it add ShowSongTitle=0 in the settings.ini file!<br/>
+- Some amazing new shaders!<br/>
+Some shaders have been polished over the past few months, with days of work invested in improving them!<br/>
+- Webcam support with 2 layers (Deep and Top)!<br/>
+- Rewritten, bulletproof preset compilation system:<br/>
+loading a preset can no longer crash MilkDrop, this is a major leap forward in overall stability.<br/>
+- Sprites now stay loaded in memory (up to 100, with a circular buffer).<br/>
+- You can preload up to 100 sprites on startup.<br/>
+- Fixed tones of small bugs!<br/>
+- MilkDrop3 is now digitally signed, making it much easier and safer to download and install.<br/>
+When you open the application files, Windows SmartScreen may display the publisher name (me): Serge Blanc.
+- MD5: 08571D6AFE067FE4318910ECBBB01C33<br/><br/>
+
 ★ <ins>03/03/2026 : Version 3.33</ins><br/>
 - During Setup: choose whether your computer can handle demanding shaders.<br/>
   If unchecked, the heaviest presets won’t be installed, but everything else will run more smoothly on older machines.<br/>
@@ -144,6 +163,7 @@ https://www.buymeacoffee.com/MilkDrop2077/<br/>
 - New FFT Attack & Decay: tweak how shaders respond to get_fft(pos).<br/>
 - Tons of small bug fixes and improvements!<br/>
 - A few shaders are not open-source and will only work with MilkDrop3.<br/><br/>
+- MD5: 6D5B124D8C303631782EFA9A44A4CEE4
 
 ★ <ins>20/09/2025 : Version 3.31</ins><br/>
 - Full support for Hi-Res audio devices (24-bit/192kHz and beyond).<br/>
