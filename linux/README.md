@@ -1,6 +1,7 @@
 # MilkDrop3 on Linux with Wine - Setup Guide
 
 This guide will help you run MilkDrop3 on Linux using Wine.
+Since version 3.35, the installer automatically detects Wine and directly installs a special Linux-compatible executable.
 
 ## Prerequisites
 
@@ -63,28 +64,14 @@ wine MilkDrop3.exe
 
 Follow the on-screen installation prompts. The default installation location will be:
 ```
-~/.wine/drive_c/users/YOUR_USERNAME/Desktop/MilkDrop 3.31/
+~/.wine/drive_c/users/YOUR_USERNAME/Desktop/MilkDrop 3.35/
 ```
 
-### 5. Replace with Linux-Compatible Executable
-
-MilkDrop3 requires a special Linux-compatible build. Replace the standard executable:
-
-```bash
-# Download the Linux-compatible version
-wget -O "MilkDrop 3 linux.exe" "https://raw.githubusercontent.com/milkdrop2077/MilkDrop3/main/linux/MilkDrop%203%20linux.exe"
-
-# Replace the executable (adjust path if needed)
-cd ~/.wine/drive_c/users/$USER/Desktop/"MilkDrop 3.31"/
-rm "MilkDrop 3.exe"
-mv /path/to/downloaded/"MilkDrop 3 linux.exe" "MilkDrop 3.exe"
-```
-
-### 6. Run MilkDrop3
+### 5. Run MilkDrop3
 
 Navigate to the installation directory and run:
 ```bash
-cd ~/.wine/drive_c/users/$USER/Desktop/"MilkDrop 3.31"/
+cd ~/.wine/drive_c/users/$USER/Desktop/"MilkDrop 3.35"/
 wine "MilkDrop 3.exe"
 ```
 
@@ -226,7 +213,7 @@ Create a desktop launcher at `~/.local/share/applications/milkdrop3.desktop`:
 [Desktop Entry]
 Name=MilkDrop3
 Comment=Music Visualization
-Exec=bash -c 'cd ~/.wine/drive_c/users/$USER/Desktop/"MilkDrop 3.31/" && wine "MilkDrop 3.exe"'
+Exec=bash -c 'cd ~/.wine/drive_c/users/$USER/Desktop/"MilkDrop 3.35/" && wine "MilkDrop 3.exe"'
 Icon=applications-multimedia
 Terminal=false
 Type=Application
@@ -267,11 +254,7 @@ winetricks -q d3dx9 vcrun2019
 wget -O MilkDrop3.exe "https://github.com/milkdrop2077/MilkDrop3/releases/download/MilkDrop3/MilkDrop3.exe"
 wine MilkDrop3.exe
 
-# 4. Replace with Linux-compatible executable
-cd ~/.wine/drive_c/users/$USER/Desktop/"MilkDrop 3.31"/
-wget -O "MilkDrop 3.exe" "https://raw.githubusercontent.com/milkdrop2077/MilkDrop3/main/linux/MilkDrop%203%20linux.exe"
-
-# 5. Download and run the launcher script
+# 4. Download and run the launcher script
 cd ~
 wget -O milkdrop3-launcher.sh "https://raw.githubusercontent.com/milkdrop2077/MilkDrop3/main/linux/milkdrop3-launcher.sh"
 chmod +x milkdrop3-launcher.sh
