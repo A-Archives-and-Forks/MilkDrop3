@@ -7,7 +7,7 @@ export STAGING_SHARED_MEMORY=1
 export WINEPREFIX="${WINEPREFIX:-$HOME/.wine}"
 
 # MilkDrop3 installation directory
-MILKDROP_DIR="$WINEPREFIX/drive_c/users/$USER/Desktop/MilkDrop 3.31"
+MILKDROP_DIR="$WINEPREFIX/drive_c/users/$USER/Desktop/MilkDrop 3.35"
 MILKDROP_EXE="MilkDrop 3.exe"
 
 # Check if MilkDrop3 is installed
