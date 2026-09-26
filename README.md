@@ -116,6 +116,14 @@ https://www.buymeacoffee.com/MilkDrop2077/<br/>
 
 # History:
 
+★ <ins>26/09/2026 : Version 3.37</ins><br/>
+- Fixed the Audio menu not working!!!<br/>
+- Added desktop mode: Press Ctrl + Shift + W to start or stop it.<br/>
+- Audio capture can now be completely disabled if you just want to enjoy the shaders as a desktop background.<br/>
+- Delete mode now moves files to the Windows Recycle Bin. Added a new Delete option to the File menu.<br/>
+- Faster playlist loading with an improved overall loading process.<br/>
+- MD5: BE7E7BA15CCA20E7EFC6EC9290A7B026<br/><br/>
+
 ★ <ins>17/09/2026 : Version 3.36</ins><br/>
 - MilkDrop3 is now 100% portable on Windows; no DirectX files needed!<br/>
 - Fixed a bug where a DLL was missing when launching MilkDrop if DirectX was not fully installed.<br/>
@@ -179,7 +187,7 @@ When you open the application files, Windows SmartScreen may display the publish
 - The shader cache is 'smart', only the new presets will be saved in the cache.<br/>
 - Introducing a new custom VM with enhanced stability: MilkDrop no longer crashes.<br/> 
 - New modern presets that truly blow the older ones away (GPU power required!).<br/>
-- New Hardcut Mode #7 with effects auto-injected based on beat detection.<br/>
+- New Hardcut mode #7 with effects auto-injected based on beat detection.<br/>
 - VJ mode is back.<br/>
 - See all the Q variables values at once (press the 'N' key twice).<br/>
 - New MilkPanel with shader code editor. Supports:<br/>
