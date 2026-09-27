@@ -119,13 +119,15 @@ https://www.buymeacoffee.com/MilkDrop2077/<br/>
 ★ <ins>26/09/2026 : Version 3.37</ins><br/>
 - Fixed the Audio menu not working!!!<br/>
 - Added auto-reconnection for disconnected devices.<br/> 
-- Added desktop mode: Press Ctrl + Shift + W to start or stop it. It's a registered hotkey on startup, so it works even when the window isn't in focus.<br/>
+- Added desktop mode: Press Ctrl + Shift + W to start or stop it.<br/>
+  It's a registered hotkey on startup, so it works even when the window isn't in focus.<br/>
+  A System Tray icon will appear next to the clock when desktop mode is active. Right-click it to open the menu.<br/>
 - Audio capture can now be completely disabled if you just want to enjoy the shaders as a desktop background.<br/>
   The simple waveform will not be displayed when audio capture is disabled, because watching a flat line isn't very exciting!<br/> 
 - Delete mode now moves files to the Windows Recycle Bin. Added a new Delete option to the File menu.<br/>
 - Faster playlist loading with an improved overall loading process.<br/>
 - If you press and hold the LED icon in the top-right corner of MilkPanel for one second, it will restart and reconnect to MilkDrop 3 with the same preset.<br/>
-  This is useful when creating shaders, example: if a crash occurs, you can quickly restart MilkDrop 3 and continue working.<br/> 
+  This is useful when creating shaders. If a faulty shader causes MilkDrop 3 to freeze, you can quickly restart it and continue working.<br/> 
 - MD5: BE7E7BA15CCA20E7EFC6EC9290A7B026<br/><br/>
 
 ★ <ins>17/09/2026 : Version 3.36</ins><br/>
